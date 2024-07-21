@@ -1,0 +1,1 @@
+export { DefaultBoard } from './DefaultBoard'
