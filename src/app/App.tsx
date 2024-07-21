@@ -1,4 +1,4 @@
-import { DefaultBoard, Header } from '@components'
+import { DefaultBoard } from '@components'
 
 import { AppWrapper, GlobalStyle } from './styled'
 
