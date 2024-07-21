@@ -13,6 +13,7 @@ export default defineConfig(() => ({
       external: './src',
     },
   },
+  base: './src',
   plugins: [react(), viteBasicSslPlugin()],
   resolve: {
     alias: {
