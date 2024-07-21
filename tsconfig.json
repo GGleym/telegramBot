@@ -5,7 +5,6 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "module": "commonjs",
-    "types": ["node"],
     "target": "es2019",
     "jsx": "react-jsx",
     "allowJs": false,
