@@ -8,12 +8,9 @@ const projectRootDir = resolve(__dirname)
 
 export default defineConfig(() => ({
   build: {
-    outDir: './build',
-    rollupOptions: {
-      external: './src',
-    },
+    outDir: './docs',
   },
-  base: './src',
+  base: './',
   plugins: [react(), viteBasicSslPlugin()],
   resolve: {
     alias: {
