@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "types": ["node"],
+    "target": "es2019",
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils/index.ts"],
+      "@components/*": ["components/*"],
+      "@components": ["components/index.ts"],
+      "@constants/*": ["constants/*"],
+      "@constants": ["constants/index.ts"],
+      "@pages/*": ["pages/*"],
+      "@pages": ["pages/index.ts"],
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "forceConsistentCasingInFileNames": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "typeRoots": [
+      "./node_modules/~/types"
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
