@@ -25,6 +25,8 @@
       "@constants": ["constants/index.ts"],
       "@pages/*": ["pages/*"],
       "@pages": ["pages/index.ts"],
+      "@api/*": ["api/*"],
+      "@api/": ["api/index.ts"]
     },
     "lib": [
       "dom",

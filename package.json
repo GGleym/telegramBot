@@ -11,15 +11,24 @@
   "dependencies": {
     "@twa-dev/sdk": "^7.0.0",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "browserify": "^17.0.0",
+    "crypto-js": "^4.2.0",
+    "ecpair": "^2.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.1.12"
+    "styled-components": "^6.1.12",
+    "tiny-secp256k1": "^2.2.3",
+    "vite-plugin-require": "^1.2.14",
+    "vite-plugin-wasm": "^3.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.24.9",
     "@babel/preset-env": "^7.24.8",
     "@babel/preset-react": "^7.24.7",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@feature-sliced/eslint-plugin-messages": "^0.1.0-beta.2",
     "@types/node": "^20.14.11",
     "@types/react": "^18.3.3",
